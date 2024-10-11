@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Mars Child
+ Description:  Mars Child Theme
+ Author:       XTemos
+ Author URI:   https://space.xtemos.com
+ Template:     xts-mars
+ Version:      1.0.0
+ Text Domain:  xts-theme
+*/
+
+.xts-post-meta>div:not(:first-child):before {
+    margin-right: 3px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: unset !important;
+    border-radius: unset;
+    font-family: 'font-icon';
+    content: "\e917";
+    font-size: 20px;
+}
